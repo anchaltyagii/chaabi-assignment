@@ -1,0 +1,45 @@
+.main-wrapper {
+  height: auto;
+  width: 100%;
+  background-color: #e7efff;
+
+  .right-content-wrapper {
+    margin-left: 241px;
+  }
+
+  .children-content {
+    padding: 126px 40px 27px 20px;
+  }
+}
+
+// Mobile designs
+@media screen and (max-width: 650px) {
+  .main-wrapper {
+    height: auto;
+    width: 100%;
+
+    .right-content-wrapper {
+      margin-left: 0px;
+    }
+
+    .children-content {
+      padding: 81px 0px 27px 0px;
+    }
+  }
+}
+
+// Tablet designs
+@media screen and (max-width: 912px) and (min-width: 650px) {
+  .main-wrapper {
+    height: auto;
+    width: 100%;
+
+    .right-content-wrapper {
+      margin-left: 0px;
+    }
+
+    .children-content {
+      padding: 81px 21px 27px 21px;
+    }
+  }
+}
